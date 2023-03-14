@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header{
+            width: 100%;
+            height: 100px;
+            background: lightseagreen;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container{
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .logo{
+            font-family: sans-serif;
+            float: left;
+            margin-top: 30px;
+        }
+
+        .navbar{
+            padding: 50px;
+            float: right;
+        }
+
+        .navbar ul{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li{
+            display: inline-block;
+            padding-left: 30px;
+            color: #fff;
+        }
+
+        .navbar ul li a{
+            color: #fff;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>LOGO</h1>
+            </div>
+        
+        <div class="navbar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
